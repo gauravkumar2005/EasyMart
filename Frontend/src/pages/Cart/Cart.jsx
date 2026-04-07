@@ -7,8 +7,8 @@ function Cart () {
                 Your Cart
             </h1>
 
-            <div className=" flex justify-around">
-            <div className="h-50 w-150 bg-white flex items-center shadow-md  gap-6 rounded-xl p-5">
+            <div className=" flex  flex-col lg:flex-row gap-6 items-center lg:items-start justify-center lg:justify-around">
+            <div className="w-full max-w-2xl bg-white flex flex-col sm:flex-row items-center shadow-md  gap-6 rounded-xl p-4 sm:p-5">
               <div>
                 <img 
                 src={Tshirt}

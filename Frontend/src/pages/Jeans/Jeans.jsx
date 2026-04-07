@@ -2,15 +2,12 @@ function Jeans () {
   return(
         <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
 
-      {/* 🔹 Heading */}
       <h2 className="text-4xl font-bold text-center text-indigo-600 mb-10">
         Men's Jeans Collection
       </h2>
 
-      {/* 🔹 Grid */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
-        {/* 🔸 Card 1 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1582552938357-32b906df40cb"
@@ -27,7 +24,6 @@ function Jeans () {
           </div>
         </div>
 
-        {/* 🔸 Card 2 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1602293589930-45aad59ba3ab"
@@ -44,7 +40,6 @@ function Jeans () {
           </div>
         </div>
 
-        {/* 🔸 Card 3 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f"
@@ -61,7 +56,6 @@ function Jeans () {
           </div>
         </div>
 
-        {/* 🔸 Card 4 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1583005516764-9e0c2f8c1c62"
@@ -78,7 +72,6 @@ function Jeans () {
           </div>
         </div>
 
-        {/* 🔸 Card 5 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f"
@@ -95,10 +88,8 @@ function Jeans () {
           </div>
         </div>
 
-        {/* 🔸 Card 6 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden relative">
           
-          {/* 🔥 Badge */}
           <span className="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded">
             Sale
           </span>

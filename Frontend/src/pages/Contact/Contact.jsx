@@ -3,14 +3,12 @@ function Contact() {
        <section className="bg-gray-100 py-12 px-6">
       <div className="max-w-6xl mx-auto">
 
-        {/* Heading */}
         <h1 className="text-4xl font-bold text-center mb-10 text-green-600">
           Contact EasyMart
         </h1>
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          {/* Contact Info */}
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
 
@@ -19,7 +17,6 @@ function Contact() {
             <p>📍 Patna, Bihar, India</p>
           </div>
 
-          {/* Quick Links */}
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-4">Quick Links</h2>
 
@@ -32,7 +29,6 @@ function Contact() {
             </ul>
           </div>
 
-          {/* Contact Form */}
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-4">Message Us</h2>
 

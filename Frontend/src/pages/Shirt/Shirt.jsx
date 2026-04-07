@@ -2,15 +2,12 @@ function Shirt () {
   return(
    <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
 
-      {/* 🔹 Heading */}
       <h2 className="text-4xl font-bold text-center text-blue-600 mb-10">
         Men's Shirt Collection
       </h2>
 
-      {/* 🔹 Grid */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
-        {/* 🔸 Card 1 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf"
@@ -27,7 +24,6 @@ function Shirt () {
           </div>
         </div>
 
-        {/* 🔸 Card 2 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c"
@@ -44,7 +40,6 @@ function Shirt () {
           </div>
         </div>
 
-        {/* 🔸 Card 3 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10"
@@ -61,7 +56,6 @@ function Shirt () {
           </div>
         </div>
 
-        {/* 🔸 Card 4 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1618354691321-e851c56960d1"
@@ -78,7 +72,6 @@ function Shirt () {
           </div>
         </div>
 
-        {/* 🔸 Card 5 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1603252109303-2751441dd157"
@@ -95,7 +88,6 @@ function Shirt () {
           </div>
         </div>
 
-        {/* 🔸 Card 6 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1621072156002-e2fccdc0b176"

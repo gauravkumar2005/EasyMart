@@ -9,15 +9,12 @@ function Women () {
   return(
       <section className="w-full min-h-screen bg-pink-50 py-10 px-6">
 
-      {/* 🔹 Heading */}
       <h2 className="text-4xl font-bold text-center text-pink-600 mb-10">
         Women's Collection
       </h2>
 
-      {/* 🔹 Grid */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
-        {/* 🔸 Card 1 */}
       <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
   
      <img
@@ -38,7 +35,6 @@ function Women () {
 
          </div>
 
-        {/* 🔸 Card 2 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src={Tshirtgirl}
@@ -55,10 +51,8 @@ function Women () {
           </div>
         </div>
 
-        {/* 🔸 Card 3 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden relative">
           
-          {/* 🔥 Badge */}
           <span className="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded">
             New
           </span>
@@ -78,7 +72,6 @@ function Women () {
           </div>
         </div>
 
-        {/* 🔸 Card 4 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src={Shootgirl2}
@@ -95,7 +88,6 @@ function Women () {
           </div>
         </div>
 
-        {/* 🔸 Card 5 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src={Shirtgirl}
@@ -112,7 +104,6 @@ function Women () {
           </div>
         </div>
 
-        {/* 🔸 Card 6 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03"

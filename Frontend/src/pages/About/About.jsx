@@ -4,7 +4,6 @@ function About() {
       
       <div className="max-w-6xl mx-auto">
 
-        {/* 🔹 Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-green-600 mb-4">
             About EasyMart
@@ -14,10 +13,8 @@ function About() {
           </p>
         </div>
 
-        {/* 🔹 Main Content */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-12">
           
-          {/* Left Text */}
           <div>
             <h2 className="text-3xl font-semibold mb-4">
               Your Trusted Shopping Partner
@@ -38,7 +35,6 @@ function About() {
             </button>
           </div>
 
-          {/* Right Image */}
           <div>
             <img
               src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da"
@@ -49,7 +45,6 @@ function About() {
 
         </div>
 
-        {/* 🔹 Features Section */}
         <h2 className="text-3xl font-semibold text-center mb-8">
           Why Choose EasyMart?
         </h2>
@@ -100,7 +95,6 @@ function About() {
 
         </div>
 
-        {/* 🔹 Stats Section */}
         <div className="bg-gray-900 text-white rounded-2xl p-10 grid md:grid-cols-4 text-center mb-12">
           <div>
             <h3 className="text-3xl font-bold">10K+</h3>
@@ -120,7 +114,6 @@ function About() {
           </div>
         </div>
 
-        {/* 🔹 CTA Section */}
         <div className="bg-green-500 text-white text-center p-10 rounded-2xl shadow-lg">
           <h2 className="text-3xl font-bold mb-3">
             Ready to Shop with EasyMart?

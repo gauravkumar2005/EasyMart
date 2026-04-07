@@ -2,15 +2,12 @@ function Kids () {
   return(
       <section className="w-full min-h-screen bg-gradient-to-b from-yellow-100 to-pink-100 py-10 px-6">
 
-      {/* 🔹 Heading */}
       <h2 className="text-4xl font-bold text-center text-purple-600 mb-10">
         Kids Collection 👶
       </h2>
 
-      {/* 🔹 Grid */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
-        {/* 🔸 Card 1 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1518837695005-2083093ee35b"
@@ -27,10 +24,8 @@ function Kids () {
           </div>
         </div>
 
-        {/* 🔸 Card 2 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden relative">
           
-          {/* 🔥 Badge */}
           <span className="absolute top-3 left-3 bg-green-500 text-white text-xs px-2 py-1 rounded-full">
             New
           </span>
@@ -50,7 +45,6 @@ function Kids () {
           </div>
         </div>
 
-        {/* 🔸 Card 3 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1522771930-78848d9293e8"
@@ -67,7 +61,6 @@ function Kids () {
           </div>
         </div>
 
-        {/* 🔸 Card 4 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
@@ -84,7 +77,6 @@ function Kids () {
           </div>
         </div>
 
-        {/* 🔸 Card 5 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1593032465171-8e6b63d4c8e1"
@@ -101,10 +93,8 @@ function Kids () {
           </div>
         </div>
 
-        {/* 🔸 Card 6 */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden relative">
           
-          {/* 🔥 Sale Badge */}
           <span className="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
             Sale
           </span>

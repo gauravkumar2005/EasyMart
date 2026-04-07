@@ -2,15 +2,12 @@ function Men () {
   return(
        <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
 
-      {/* 🔹 Heading */}
       <h2 className="text-4xl font-bold text-center text-green-600 mb-10">
         T-Shirts Collection
       </h2>
 
-      {/* 🔹 Product Grid */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
-        {/* 🔸 Product Card */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
@@ -28,7 +25,6 @@ function Men () {
           </div>
         </div>
 
-        {/* 🔸 Repeat Cards */}
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"

@@ -1,4 +1,5 @@
 import Oversize from "../../assets/Oversize.jpg";
+import Shirt from "../../assets/Shirt.jpg";
 
 function Men () {
   return(
@@ -12,7 +13,7 @@ function Men () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+            src={Shirt}
             className="w-full h-60 object-cover"
             alt="tshirt"
           />

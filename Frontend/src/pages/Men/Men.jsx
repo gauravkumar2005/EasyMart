@@ -1,5 +1,7 @@
 import Oversize from "../../assets/Oversize.jpg";
 import Shirt from "../../assets/Shirt.jpg";
+import Shirt2 from "../../assets/Shirt2.jpg";
+import Shirt3 from "../../assets/Shirt3.jpg";
 
 function Men () {
   return(
@@ -18,7 +20,7 @@ function Men () {
             alt="tshirt"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Oversized T-Shirt</h3>
+            <h3 className="font-semibold text-lg">Shirt</h3>
             <p className="text-gray-500 text-sm">Comfortable cotton wear</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹499</p>
 
@@ -30,12 +32,12 @@ function Men () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"
+            src={Shirt2}
             className="w-full h-60 object-cover"
             alt="tshirt"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Printed T-Shirt</h3>
+            <h3 className="font-semibold text-lg">Shirt</h3>
             <p className="text-gray-500 text-sm">Stylish casual wear</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹599</p>
 
@@ -98,12 +100,12 @@ function Men () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-           src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990"
+           src={Shirt3}
            className="w-full h-60 object-cover"
            alt="tshirt"
            />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Sports T-Shirt</h3>
+            <h3 className="font-semibold text-lg">Shirt</h3>
             <p className="text-gray-500 text-sm">Lightweight & breathable</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹549</p>
 

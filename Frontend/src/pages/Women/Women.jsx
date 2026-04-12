@@ -3,6 +3,7 @@ import Tshirtgirl from "../../assets/Tshirtgirl.jpg";
 import Shootgirl from "../../assets/Shootgirl.jpg";
 import Shootgirl2 from "../../assets/Shootgirl2.jpg";
 import Shirtgirl from "../../assets/Shirtgirl.jpg";
+import Shootgirl3 from "../../assets/Shootgirl3.jpg";
 
 
 function Women () {
@@ -106,12 +107,12 @@ function Women () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03"
+            src={Shootgirl3}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="jacket"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Winter Jacket</h3>
+            <h3 className="font-semibold text-lg">Girl Shoot</h3>
             <p className="text-gray-500 text-sm">Warm & stylish</p>
             <p className="text-pink-600 font-bold text-xl mt-2">₹2499</p>
             <button className="mt-3 w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">

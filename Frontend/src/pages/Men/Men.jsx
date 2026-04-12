@@ -1,3 +1,5 @@
+import Oversize from "../../assets/Oversize.jpg";
+
 function Men () {
   return(
        <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
@@ -44,12 +46,12 @@ function Men () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1520975922284-9d1b54a2f3c3"
+            src={Oversize}
             className="w-full h-60 object-cover"
             alt="tshirt"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Plain T-Shirt</h3>
+            <h3 className="font-semibold text-lg">Oversize T-Shirt</h3>
             <p className="text-gray-500 text-sm">Soft & breathable</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹399</p>
 

@@ -1,4 +1,5 @@
 import Simpletshirt from "../../assets/Simpletshirt.jpg";
+import Fulltshirtgirl from "../../assets/fulltshirtgirl.jpg";
 
 function Tshirt () {
   return(
@@ -63,12 +64,12 @@ function Tshirt () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad"
+            src={Fulltshirtgirl}
             className="w-full h-60 object-cover"
             alt="tshirt"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Graphic T-Shirt</h3>
+            <h3 className="font-semibold text-lg">Full T-Shirt</h3>
             <p className="text-gray-500 text-sm">Trendy design</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹699</p>
 

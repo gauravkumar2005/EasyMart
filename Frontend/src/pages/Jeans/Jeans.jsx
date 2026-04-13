@@ -1,5 +1,6 @@
 import Jeansimg from "../../assets/Jeansimg.jpg";
 import Jeansimg2 from "../../assets/Jeansimg2.jpg";
+import Jeansimg3 from "../../assets/Jeansimg3.jpg";
 
 function Jeans () {
   return(
@@ -45,7 +46,7 @@ function Jeans () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f"
+            src={Jeansimg3}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="jeans"
           />

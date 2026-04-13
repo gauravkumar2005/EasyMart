@@ -2,8 +2,8 @@ import Oversize from "../../assets/Oversize.jpg";
 import Shirt from "../../assets/Shirt.jpg";
 import Shirt2 from "../../assets/Shirt2.jpg";
 import Shirt3 from "../../assets/Shirt3.jpg";
-import Jeans from "../../assets/Jeans.jpg";
-import Jeans2 from "../../assets/Jeans2.jpg";
+import Jeansimg from "../../assets/Jeansimg.jpg";
+import Jeansimg2 from "../../assets/Jeansimg2.jpg";
 
 function Men () {
   return(
@@ -68,7 +68,7 @@ function Men () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-            src={Jeans}
+            src={Jeansimg}
             className="w-full h-60 object-cover"
             alt="tshirt"
           />
@@ -85,7 +85,7 @@ function Men () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-            src={Jeans2}
+            src={Jeansimg2}
             className="w-full h-60 object-cover"
             alt="tshirt"
           />

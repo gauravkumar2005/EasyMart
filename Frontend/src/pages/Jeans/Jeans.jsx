@@ -1,3 +1,5 @@
+import Jeansimg from "../../assets/Jeansimg.jpg";
+
 function Jeans () {
   return(
         <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
@@ -10,12 +12,12 @@ function Jeans () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1582552938357-32b906df40cb"
+            src={Jeansimg}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="jeans"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Slim Fit Jeans</h3>
+            <h3 className="font-semibold text-lg">Stylish Jeans</h3>
             <p className="text-gray-500 text-sm">Modern slim style</p>
             <p className="text-indigo-600 font-bold text-xl mt-2">₹1299</p>
             <button className="mt-3 w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition">

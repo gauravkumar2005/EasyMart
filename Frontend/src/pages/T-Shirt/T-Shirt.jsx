@@ -1,5 +1,5 @@
 import Simpletshirt from "../../assets/Simpletshirt.jpg";
-import Fulltshirtgirl from "../../assets/fulltshirtgirl.jpg";
+import Fulltshirtgirl from "../../assets/Fulltshirtgirl.jpg";
 import Oversizegirl2 from "../../assets/Oversizegirl2.jpg";
 
 function Tshirt () {

@@ -1,3 +1,5 @@
+import Simpletshirt from "../../assets/Simpletshirt.jpg";
+
 function Tshirt () {
   return(
            <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
@@ -10,12 +12,12 @@ function Tshirt () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-2 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+            src={Simpletshirt}
             className="w-full h-60 object-cover"
             alt="tshirt"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Oversized T-Shirt</h3>
+            <h3 className="font-semibold text-lg">Simple T-Shirt</h3>
             <p className="text-gray-500 text-sm">Comfortable cotton wear</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹499</p>
 

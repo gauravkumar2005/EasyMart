@@ -3,6 +3,7 @@ import Jeansimg2 from "../../assets/Jeansimg2.jpg";
 import Jeansimg3 from "../../assets/Jeansimg3.jpg";
 import Girljeans1 from "../../assets/Girljeans1.jpg";
 import Stylishjeansgirl from "../../assets/Stylishjeansgirl.jpg";
+import Fitjeansgirl from "../../assets/Fitjeansgirl.jpg";
 
 function Jeans () {
   return(
@@ -101,12 +102,12 @@ function Jeans () {
           </span>
 
           <img
-            src="https://images.unsplash.com/photo-1604176354204-9268737828e4"
+            src={Fitjeansgirl}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="jeans"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Stretchable Jeans</h3>
+            <h3 className="font-semibold text-lg">Fit Jeans</h3>
             <p className="text-gray-500 text-sm">Flexible & comfortable</p>
             <p className="text-indigo-600 font-bold text-xl mt-2">₹1099</p>
             <button className="mt-3 w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition">

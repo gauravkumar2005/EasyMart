@@ -1,3 +1,5 @@
+import Formalshirt from "../../assets/Formalshirt.jpg";
+
 function Shirt () {
   return(
    <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
@@ -10,7 +12,7 @@ function Shirt () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf"
+            src={Formalshirt}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="shirt"
           />

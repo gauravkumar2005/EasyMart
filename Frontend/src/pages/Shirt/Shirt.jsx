@@ -1,6 +1,7 @@
 import Formalshirt from "../../assets/Formalshirt.jpg";
 import Longshirt from "../../assets/Longshirt.jpg";
 import Fitgreenshirt from "../../assets/Fitgreenshirt.jpg";
+import Formalshirtgirl from "../../assets/Formalshirtgirl.jpg";
 import Longshirtgirl from "../../assets/Longshirtgirl.jpg";
 
 function Shirt () {
@@ -63,12 +64,12 @@ function Shirt () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1618354691321-e851c56960d1"
+            src={Formalshirtgirl}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="shirt"
           />
           <div className="p-4">
-            <h3 className="font-semibold text-lg">Denim Shirt</h3>
+            <h3 className="font-semibold text-lg">Formal Shirt</h3>
             <p className="text-gray-500 text-sm">Stylish denim look</p>
             <p className="text-blue-600 font-bold text-xl mt-2">₹1199</p>
             <button className="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">

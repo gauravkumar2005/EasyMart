@@ -3,8 +3,7 @@ import Longshirt from "../../assets/Longshirt.jpg";
 import Fitgreenshirt from "../../assets/Fitgreenshirt.jpg";
 import Formalshirtgirl from "../../assets/Formalshirtgirl.jpg";
 import Longshirtgirl from "../../assets/Longshirtgirl.jpg";
-import Longshirtgirl from "../../assets/Longshirtgirl.jpg";
-import Styleshirtgirl from "../../assets/Stlyleshirtgirl.jpg";
+import Stylishshirtgirl from "../../assets/Stylishshirtgirl.jpg";
 
 function Shirt () {
   return(
@@ -98,7 +97,7 @@ function Shirt () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
-            src={Styleshirtgirl}
+            src={Stylishshirtgirl}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="shirt"
           />

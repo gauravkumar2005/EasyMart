@@ -1,6 +1,7 @@
 import Formalshirt from "../../assets/Formalshirt.jpg";
 import Longshirt from "../../assets/Longshirt.jpg";
 import Fitgreenshirt from "../../assets/Fitgreenshirt.jpg";
+import Longshirtgirl from "../../assets/Longshirtgirl.jpg";
 
 function Shirt () {
   return(
@@ -78,7 +79,7 @@ function Shirt () {
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1603252109303-2751441dd157"
+            src={Longshirtgirl}
             className="w-full h-60 object-cover hover:scale-105 transition duration-300"
             alt="shirt"
           />

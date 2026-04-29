@@ -10,7 +10,7 @@ function Men () {
        <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
 
       <h2 className="text-4xl font-bold text-center text-green-600 mb-10">
-        T-Sh
+        T-Shirts Collection
       </h2>
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">

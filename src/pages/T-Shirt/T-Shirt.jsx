@@ -25,7 +25,7 @@ function Tshirt () {
             <p className="text-green-600 font-bold text-xl mt-2">₹499</p>
 
             <button className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
-              Add t
+              Add to Cart rhis is that
             </button>
           </div>
         </div>

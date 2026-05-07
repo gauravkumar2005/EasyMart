@@ -4,7 +4,7 @@ function Contact() {
       <div className="max-w-6xl mx-auto">
 
         <h1 className="text-4xl font-bold text-center mb-10 text-green-600">
-          Contact EasyMart
+          Contact 
         </h1>
 
         <div className="grid md:grid-cols-3 gap-8">

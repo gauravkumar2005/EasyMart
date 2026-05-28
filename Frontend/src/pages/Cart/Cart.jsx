@@ -36,7 +36,7 @@ function Cart () {
               </div>
 
               <button className="text-red-500 font-semibold mt-2 sm:mt-0 sm:self-end">
-                 Remove
+                 
               </button>
             </div>
 

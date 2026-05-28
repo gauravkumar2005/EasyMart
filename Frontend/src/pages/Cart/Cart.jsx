@@ -61,7 +61,7 @@ function Cart () {
                 </div>
 
                 <button className="text-lg sm:text-xl md:text-2xl w-full bg-blue-600 text-white font-bold mt-5 p-2 rounded-md">
-                    
+                    Cheackout
                 </button>
             </div>
 

@@ -51,7 +51,7 @@ function Cart () {
                 </div>
 
                 <div className="text-base sm:text-lg md:text-xl flex justify-between mb-2">
-                    <span></span>
+                    <span>Delivery</span>
                     <span>₹50</span>
                 </div>
 

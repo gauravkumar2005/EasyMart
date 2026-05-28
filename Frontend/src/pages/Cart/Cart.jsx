@@ -42,7 +42,7 @@ function Cart () {
 
             <div className="w-full max-w-sm bg-white shadow-md rounded-xl p-5 sm:p-6">
                 <h2 className="text-xl sm:text-2xl font-bold text-center py-3 sm:p-4">
-                    Order Summary
+                    
                 </h2>
 
                 <div className="text-base sm:text-lg md:text-xl flex justify-between mt-4 mb-2">

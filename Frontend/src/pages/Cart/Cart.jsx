@@ -56,7 +56,7 @@ function Cart () {
                 </div>
 
                 <div className="text-base sm:text-lg md:text-xl flex justify-between mb-4 font-semibold">
-                    <span></span>
+                    <span>Total</span>
                     <span>₹549</span>
                 </div>
 

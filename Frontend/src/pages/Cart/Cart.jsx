@@ -46,7 +46,7 @@ function Cart () {
                 </h2>
 
                 <div className="text-base sm:text-lg md:text-xl flex justify-between mt-4 mb-2">
-                    <span>Subtotal</span>
+                    <span></span>
                     <span>₹499</span>
                 </div>
 

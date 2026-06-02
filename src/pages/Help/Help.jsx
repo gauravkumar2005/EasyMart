@@ -69,11 +69,11 @@ function Help() {
             Contact Support
           </h2>
 
-          <div className="space-y-2 text-gray-700">
+          {/* <div className="space-y-2 text-gray-700">
             <p>Email: support@easymart.com</p>
             <p>Phone: +91 98765 43210</p>
             <p>Available: Monday - Saturday (9 AM - 7 PM)</p>
-          </div>
+          </div> */}
         </div>
 
       </div>

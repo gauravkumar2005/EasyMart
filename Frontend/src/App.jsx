@@ -15,6 +15,7 @@ import Shirt from "./pages/Shirt/Shirt";
 import Jeans from "./pages/Jeans/Jeans";
 import Women from "./pages/Women/Women";
 import Kids from "./pages/Kids/Kids";
+import Help from "./pages/Help/Help";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
       { path: "jeans", element: <Jeans /> },
       { path: "women", element: <Women /> },
       { path: "kids", element: <Kids /> },
+      { path: "help", element: <Help /> },
     ],
   },
 ]);

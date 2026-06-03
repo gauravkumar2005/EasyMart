@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Contact() {
     return(
        <section className="bg-gray-100 py-12 px-6">
@@ -21,11 +23,24 @@ function Contact() {
             <h2 className="text-2xl font-semibold mb-4">Quick Links</h2>
 
             <ul className="space-y-3">
-              <li className="hover:text-green-500 cursor-pointer">Home</li>
-              <li className="hover:text-green-500 cursor-pointer">Shop</li>
-              <li className="hover:text-green-500 cursor-pointer">About Us</li>
-              <li className="hover:text-green-500 cursor-pointer">Cart</li>
-              <li className="hover:text-green-500 cursor-pointer">Login</li>
+              <li className="hover:text-green-500 cursor-pointer">
+                <Link to="/">Home</Link>
+              </li>
+              <li className="hover:text-green-500 cursor-pointer">
+                <Link to="/products">Shop</Link>
+              </li>
+              <li className="hover:text-green-500 cursor-pointer">
+                <Link to="/about">About Us</Link>
+              </li>
+              <li className="hover:text-green-500 cursor-pointer">
+                <Link to="/cart">Cart</Link>
+              </li>
+              <li className="hover:text-green-500 cursor-pointer">
+                <Link to="/login">Login</Link>
+              </li>
+              <li className="hover:text-green-500 cursor-pointer">
+                <Link to="/help">Help</Link>
+              </li>
             </ul>
           </div>
 

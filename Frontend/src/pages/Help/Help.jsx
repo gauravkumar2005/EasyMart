@@ -71,7 +71,8 @@ function Help() {
 
           <div className="space-y-2 text-gray-700">
             <p>Email: support@easymart.com</p>
-            <p>Phone: +91 9097710004</p>
+            <p>Phone: +91 90977 10004</p>
+            <p>Available: Monday - Saturday (9 AM - 7 PM)</p>
           </div>
         </div>
 

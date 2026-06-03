@@ -69,7 +69,11 @@ function Help() {
             Contact Support
           </h2>
 
-         
+          <div className="space-y-2 text-gray-700">
+            <p>Email: support@easymart.com</p>
+           
+          </div>
+        </div>
 
       </div>
     </div>

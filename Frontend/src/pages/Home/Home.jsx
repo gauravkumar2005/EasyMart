@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Hero from "../../assets/Hero.png";
 
 function Home() {
@@ -17,9 +18,11 @@ function Home() {
 
     <div className="mt-6 sm:mt-7 md:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
       
-      <button className="px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base md:text-lg font-semibold text-white bg-red-500 rounded-lg shadow-md hover:bg-red-600 hover:scale-105 transition duration-300">
+      <Link 
+        to="/products"
+        className="px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base md:text-lg font-semibold text-white bg-red-500 rounded-lg shadow-md hover:bg-red-600 hover:scale-105 transition duration-300">
         Explore Now
-      </button>
+      </Link>
 
       <button className="px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base md:text-lg font-semibold text-red-500 border-2 border-red-500 rounded-lg hover:bg-red-500 hover:text-white transition duration-300">
         View Deals

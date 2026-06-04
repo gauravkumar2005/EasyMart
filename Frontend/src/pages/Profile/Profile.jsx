@@ -44,8 +44,8 @@ function Profile() {
               Address
             </h2>
 
-            <p>Gopalganj, Bihar</p>
-            <p>India - 841428</p>
+            <p>Saran, Bihar</p>
+            <p>India - 841418</p>
           </div>
 
         </div>

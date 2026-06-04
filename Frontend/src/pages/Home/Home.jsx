@@ -25,7 +25,7 @@ function Home() {
       </Link>
 
       <Link 
-        to="/deals"
+        to="/orders"
         className="px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base md:text-lg font-semibold text-red-500 border-2 border-red-500 rounded-lg hover:bg-red-500 hover:text-white transition duration-300">
         View Deals
       </Link>

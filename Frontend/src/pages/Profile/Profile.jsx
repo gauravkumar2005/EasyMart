@@ -22,7 +22,7 @@ function Profile() {
           </h1>
 
           <p className="text-gray-500">
-            gaurav@example.com
+            rohit@example.com
           </p>
         </div>
 

@@ -18,7 +18,7 @@ function Profile() {
           />
 
           <h1 className="text-3xl font-bold mt-4 text-gray-800">
-            Gaurav Kumar
+            Rohit Kumar
           </h1>
 
           <p className="text-gray-500">

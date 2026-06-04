@@ -57,6 +57,10 @@ function Navbar() {
               <p className="px-3 py-1 rounded-md bg-red-500 transition hover:scale-110">
                 <Link to="/sign">Sign Up</Link>
               </p>
+              
+              <p className="px-3 py-1 rounded-md bg-red-500 transition hover:scale-110">
+                <Link to="/profile">Profile</Link>
+              </p>
             </div>
           </div>
         </div>

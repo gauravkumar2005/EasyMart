@@ -17,6 +17,7 @@ import Women from "./pages/Women/Women";
 import Kids from "./pages/Kids/Kids";
 import Help from "./pages/Help/Help";
 import Settings from "./pages/Settings/Settings";
+import Profile from "./pages/Profile/Profile";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
       { path: "kids", element: <Kids /> },
       { path: "help", element: <Help /> },
       { path: "settings", element: <Settings /> },
+      { path: "profile", element: <Profile /> },
     ],
   },
 ]);

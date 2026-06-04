@@ -16,6 +16,7 @@ import Jeans from "./pages/Jeans/Jeans";
 import Women from "./pages/Women/Women";
 import Kids from "./pages/Kids/Kids";
 import Help from "./pages/Help/Help";
+import Settings from "./pages/Settings/Settings";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
       { path: "women", element: <Women /> },
       { path: "kids", element: <Kids /> },
       { path: "help", element: <Help /> },
+      { path: "settings", element: <Settings /> },
     ],
   },
 ]);

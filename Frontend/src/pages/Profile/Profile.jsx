@@ -36,7 +36,7 @@ function Profile() {
 
             <p><strong>Name:</strong> Rohit Kumar</p>
             <p><strong>Email:</strong> rohit@gmail.com</p>
-            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Phone:</strong> +91 9097710004</p>
           </div>
 
           <div className="bg-gray-50 p-5 rounded-xl shadow-sm">

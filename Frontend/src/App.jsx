@@ -18,6 +18,7 @@ import Kids from "./pages/Kids/Kids";
 import Help from "./pages/Help/Help";
 import Settings from "./pages/Settings/Settings";
 import Profile from "./pages/Profile/Profile";
+import Orders from "./pages/Orders/Orders";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,7 @@ const router = createBrowserRouter([
       { path: "help", element: <Help /> },
       { path: "settings", element: <Settings /> },
       { path: "profile", element: <Profile /> },
+      { path: "orders", element: <Orders /> },
     ],
   },
 ]);

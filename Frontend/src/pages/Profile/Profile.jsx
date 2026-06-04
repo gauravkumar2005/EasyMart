@@ -22,7 +22,7 @@ function Profile() {
           </h1>
 
           <p className="text-gray-500">
-            rohit@example.com
+            rohit@gmail.com
           </p>
         </div>
 
@@ -34,8 +34,8 @@ function Profile() {
               Personal Information
             </h2>
 
-            <p><strong>Name:</strong> Gaurav Kumar</p>
-            <p><strong>Email:</strong> gaurav@example.com</p>
+            <p><strong>Name:</strong> Rohit Kumar</p>
+            <p><strong>Email:</strong> rohit@gmail.com</p>
             <p><strong>Phone:</strong> +91 9876543210</p>
           </div>
 

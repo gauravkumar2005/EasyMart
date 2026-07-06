@@ -125,9 +125,11 @@ function About() {
           <p className="mb-5">
             Explore thousands of products at the best prices today!
           </p>
-          <button className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
-            Shop Now
-          </button>
+          <Link to="/products">
+             <button className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+               Shop Now
+             </button>
+          </Link>
         </div>
 
       </div>

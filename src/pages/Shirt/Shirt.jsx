@@ -5,7 +5,11 @@ import Formalshirtgirl from "../../assets/Formalshirtgirl.jpg";
 import Longshirtgirl from "../../assets/Longshirtgirl.jpg";
 import Stylishshirtgirl from "../../assets/Stylishshirtgirl.jpg";
 
+import { useCart } from "../context/CartContext";
+
 function Shirt () {
+  const { addToCart } = useCart();
+  
   return(
    <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
 

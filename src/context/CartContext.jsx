@@ -24,6 +24,19 @@ export function CartProvider({ children }) {
     });
   };
 
+    const removeFromCart = (id) => {
+    setCart((prevCart) => prevCart.filter((item) => item.id !== id));
+  };
+
+  const updateQty = (id, newQty) => {
+    if (newQty < 1) return; // quantity 0 se kam nahi ho sakti
+    setCart((prevCart) =>
+      prevCart.map((item) =>
+        item.id === id ? { ...item, qty: newQty } : item
+      )
+    );
+  };
+
   return (
     <CartContext.Provider value={{ cart, addToCart }}>
       {children}

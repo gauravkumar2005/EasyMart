@@ -65,7 +65,9 @@ function Shirt () {
             <h3 className="font-semibold text-lg">Fitgreen Shirt</h3>
             <p className="text-gray-500 text-sm">Trendy look</p>
             <p className="text-blue-600 font-bold text-xl mt-2">₹899</p>
-            <button className="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 3, name: "Fitgreen Shirt", price: 899, img: Fitgreenshirt })}
+              className="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
               Add to Cart
             </button>
           </div>
@@ -81,7 +83,9 @@ function Shirt () {
             <h3 className="font-semibold text-lg">Formal Shirt</h3>
             <p className="text-gray-500 text-sm">Stylish denim look</p>
             <p className="text-blue-600 font-bold text-xl mt-2">₹1199</p>
-            <button className="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 4, name: "Formal Shirt", price: 1199, img: Formalshirtgirl })}
+              className="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
               Add to Cart
             </button>
           </div>

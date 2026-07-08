@@ -46,7 +46,9 @@ function Tshirt () {
             <p className="text-gray-500 text-sm">Stylish casual wear</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹599</p>
 
-            <button className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 2, name: "Printed T-Shirt", price: 599, img: Fulltshirtgirl })}
+              className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
               Add to Cart
             </button>
           </div>
@@ -63,7 +65,9 @@ function Tshirt () {
             <p className="text-gray-500 text-sm">Soft & breathable</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹399</p>
 
-            <button className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 3, name: "Plain T-Shirt", price: 399, img: Plaintshirt })}
+              className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
               Add to Cart
             </button>
           </div>

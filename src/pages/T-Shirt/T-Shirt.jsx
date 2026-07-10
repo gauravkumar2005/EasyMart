@@ -103,7 +103,9 @@ function Tshirt () {
             <p className="text-gray-500 text-sm">Perfect for winter</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹799</p>
 
-            <button className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 5, name: "Oversize T-Shirt", price: 799, img: Oversizegirl2 })}
+              className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
               Add to Cart
             </button>
           </div>

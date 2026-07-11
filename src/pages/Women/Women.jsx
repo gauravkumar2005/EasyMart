@@ -5,8 +5,10 @@ import Shootgirl2 from "../../assets/Shootgirl2.jpg";
 import Shirtgirl from "../../assets/Shirtgirl.jpg";
 import Shootgirl3 from "../../assets/Shootgirl3.jpg";
 
+import { useCart } from "../../context/CartContext";
 
 function Women () {
+   const { addToCart } = useCart();
   return(
       <section className="w-full min-h-screen bg-pink-50 py-10 px-6">
 
@@ -29,7 +31,9 @@ function Women () {
     <p className="text-gray-500 text-sm">Trendy & comfortable</p>
     <p className="text-pink-600 font-bold text-xl mt-2">₹599</p>
 
-    <button className="mt-3 w-full bg-pink-500 text-white py-2 rounded-full hover:bg-pink-600 transition">
+    <button 
+      onClick={() => addToCart({ id: 1, name: "Oversized Girl T-Shirt", price: 599, img: Oversizegirl })}
+      className="mt-3 w-full bg-pink-500 text-white py-2 rounded-full hover:bg-pink-600 transition">
       Add to Cart
     </button>
     </div>
@@ -46,7 +50,9 @@ function Women () {
             <h3 className="font-semibold text-lg">Simple Girl T-shirt</h3>
             <p className="text-gray-500 text-sm">Ethnic wear</p>
             <p className="text-pink-600 font-bold text-xl mt-2">₹999</p>
-            <button className="mt-3 w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 2, name: "Simple Girl T-shirt", price: 999, img: Tshirtgirl })}
+              className="mt-3 w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
               Add to Cart
             </button>
           </div>

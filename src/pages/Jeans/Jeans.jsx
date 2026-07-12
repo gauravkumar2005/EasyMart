@@ -64,7 +64,9 @@ function Jeans () {
             <h3 className="font-semibold text-lg">Ripped Jeans</h3>
             <p className="text-gray-500 text-sm">Trendy street style</p>
             <p className="text-indigo-600 font-bold text-xl mt-2">₹1499</p>
-            <button className="mt-3 w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 3, name: "Ripped Jeans", price: 1499, img: Jeansimg3 })}
+              className="mt-3 w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition">
               Add to Cart
             </button>
           </div>
@@ -80,7 +82,9 @@ function Jeans () {
             <h3 className="font-semibold text-lg">Denim Jeans</h3>
             <p className="text-gray-500 text-sm">Classic blue denim</p>
             <p className="text-indigo-600 font-bold text-xl mt-2">₹1199</p>
-            <button className="mt-3 w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 4, name: "Denim Jeans", price: 1199, img: Girljeans1 })}
+              className="mt-3 w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition">
               Add to Cart
             </button>
           </div>

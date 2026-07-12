@@ -5,7 +5,10 @@ import Shirt3 from "../../assets/Shirt3.jpg";
 import Jeansimg from "../../assets/Jeansimg.jpg";
 import Jeansimg2 from "../../assets/Jeansimg2.jpg";
 
+import { useCart } from "../../context/CartContext";
+
 function Men () {
+   const { addToCart } = useCart();
   return(
        <section className="w-full min-h-screen bg-gray-100 py-10 px-6">
 
@@ -26,7 +29,9 @@ function Men () {
             <p className="text-gray-500 text-sm">Comfortable cotton wear</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹499</p>
 
-            <button className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 1, name: "Shirt", price: 499, img: Shirt })}
+              className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
               Add to Cart
             </button>
           </div>
@@ -43,7 +48,9 @@ function Men () {
             <p className="text-gray-500 text-sm">Stylish casual wear</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹599</p>
 
-            <button className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 2, name: "Shirt", price: 599, img: Shirt2 })}
+              className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
               Add to Cart
             </button>
           </div>

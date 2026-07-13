@@ -1,4 +1,8 @@
+import { useCart } from "../../context/CartContext";
+
 function Kids () {
+  const { addToCart } = useCart();
+
   return(
       <section className="w-full min-h-screen bg-gradient-to-b from-yellow-100 to-pink-100 py-10 px-6">
 
@@ -18,7 +22,9 @@ function Kids () {
             <h3 className="font-semibold text-lg">Kids T-Shirt</h3>
             <p className="text-gray-500 text-sm">Soft cotton</p>
             <p className="text-purple-600 font-bold text-xl mt-2">₹399</p>
-            <button className="mt-3 w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 1, name: "Kids T-Shirt", price: 399, img: "https://images.unsplash.com/photo-1518837695005-2083093ee35b" })}
+              className="mt-3 w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition">
               Add to Cart
             </button>
           </div>
@@ -39,7 +45,9 @@ function Kids () {
             <h3 className="font-semibold text-lg">Kids Dress</h3>
             <p className="text-gray-500 text-sm">Cute & stylish</p>
             <p className="text-purple-600 font-bold text-xl mt-2">₹699</p>
-            <button className="mt-3 w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition">
+            <button 
+              onClick={() => addToCart({ id: 2, name: "Kids Dress", price: 699, img: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9" })}
+              className="mt-3 w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition">
               Add to Cart
             </button>
           </div>

@@ -8,7 +8,7 @@ function Help() {
         {/* Heading */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold text-gray-800">
-            
+            Help Center
           </h1>
           <p className="text-gray-600 mt-2">
             We're here to help you with your orders and queries.

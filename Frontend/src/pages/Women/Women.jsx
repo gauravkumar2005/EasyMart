@@ -27,7 +27,7 @@ function Women () {
     />
 
      <div className="p-4 text-center">
-    <h3 className="font-semibold text-lg"></h3>
+    <h3 className="font-semibold text-lg">Oversized Girl T-Shirt</h3>
     <p className="text-gray-500 text-sm">Trendy & comfortable</p>
     <p className="text-pink-600 font-bold text-xl mt-2">₹599</p>
 

@@ -5,6 +5,10 @@ import { useState } from "react";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeMenu = () => {
+  setIsOpen(false);
+  };
+
   return (
     <>
       <div className="w-full bg-white px-4 sm:px-6 md:px-10 py-3">
@@ -71,15 +75,21 @@ function Navbar() {
 
             <ul className="flex flex-col gap-4 items-center text-center">
               <li className="text-lg text-blue-600 font-bold">
-                <Link to="/home">Home</Link>
+                <Link to="/home" onClick={closeMenu}>
+                  Home
+                </Link>
               </li>
 
               <li className="text-lg text-blue-600 font-bold">
-                <Link to="/cart">Cart</Link>
+                <Link to="/cart" onClick={closeMenu}>
+                  Cart
+                </Link>
               </li>
 
               <li className="text-lg text-blue-600 font-bold">
-                <Link to="/products">Products</Link>
+                <Link to="/products" onClick={closeMenu}>
+                 Products
+                </Link>
               </li>
 
               <li className="text-lg text-blue-600 font-bold">

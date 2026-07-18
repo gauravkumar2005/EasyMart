@@ -93,21 +93,29 @@ function Navbar() {
               </li>
 
               <li className="text-lg text-blue-600 font-bold">
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/contact" onClick={closeMenu}>
+                  Contact Us
+                </Link>
               </li>
 
               <li className="text-lg text-blue-600 font-bold">
-                <Link to="/about">About Us</Link>
+                <Link to="/about" onClick={closeMenu}>
+                  About Us
+                </Link>
               </li>
             </ul>
 
             <div className="flex flex-col gap-3 mt-4 items-center text-white font-bold">
               <p className="px-4 py-2 rounded-md bg-red-500">
-                <Link to="/login">Login</Link>
+                <Link to="/login" onClick={closeMenu}>
+                   Login
+                </Link>
               </p>
 
               <p className="px-4 py-2 rounded-md bg-red-500">
-                <Link to="/sign">Sign Up</Link>
+                <Link to="/sign" onClick={closeMenu}>
+                  Sign Up
+                </Link>
               </p>
             </div>
 

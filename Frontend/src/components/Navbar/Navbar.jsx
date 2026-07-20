@@ -88,7 +88,7 @@ function Navbar() {
 
               <li className="text-lg text-blue-600 font-bold">
                 <Link to="/products" onClick={closeMenu}>
-                 Products
+                  Products
                 </Link>
               </li>
 
@@ -115,6 +115,12 @@ function Navbar() {
               <p className="px-4 py-2 rounded-md bg-red-500">
                 <Link to="/sign" onClick={closeMenu}>
                   Sign Up
+                </Link>
+              </p>
+              
+              <p className="px-4 py-2 rounded-md bg-red-500">
+                <Link to="/profile" onClick={closeMenu}>
+                  Profile
                 </Link>
               </p>
             </div>

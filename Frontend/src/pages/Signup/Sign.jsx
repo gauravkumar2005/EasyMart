@@ -16,6 +16,10 @@ function Signup() {
       });
 
       alert(res.data.message); // "User registered"
+
+      setEmail("");
+      setPassword("");
+
     } catch (err) {
       console.log(err);
       alert("Signup failed");
@@ -27,6 +31,7 @@ function Signup() {
       
       <form 
         onSubmit={handleSignup}
+        autoComplete="off"
         className="bg-white p-8 rounded-xl shadow-md w-80"
       >
         <h2 className="text-2xl text-center mb-4 font-bold text-blue-600">
@@ -35,15 +40,19 @@ function Signup() {
 
         <input
           type="email"
+          autoComplete="off"
           placeholder="Email"
           className="w-full mb-3 p-2 border rounded"
+          value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
 
         <input
           type="password"
+          autoComplete="new-password"
           placeholder="Password"
           className="w-full mb-3 p-2 border rounded"
+          value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
 

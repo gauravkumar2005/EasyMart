@@ -17,6 +17,10 @@ function Login() {
       });
 
       alert(res.data.message); // response show
+
+      setEmail("");
+      setPassword("");
+
     } catch (err) {
       console.log(err);
       alert("Login failed");
@@ -39,6 +43,7 @@ function Login() {
           type="email"
           placeholder="Email"
           className="w-full mb-4 mt-5 p-3 border rounded-md"
+          value={email}
           onChange={(e) => setEmail(e.target.value)} // 👈 state
         />
 
@@ -46,6 +51,7 @@ function Login() {
           type="password"
           placeholder="Password"
           className="w-full mb-4 p-3 border rounded-md"
+          value={password}
           onChange={(e) => setPassword(e.target.value)} // 👈 state
         />
 

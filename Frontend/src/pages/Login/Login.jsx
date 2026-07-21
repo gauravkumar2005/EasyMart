@@ -32,6 +32,7 @@ function Login() {
       
       <form 
         onSubmit={handleLogin}  // 👈 yaha connect hua backend
+        autoComplete="off"
         className="h-100 w-100 p-8 rounded-xl bg-white shadow-md"
       >
         
@@ -44,6 +45,7 @@ function Login() {
           placeholder="Email"
           className="w-full mb-4 mt-5 p-3 border rounded-md"
           value={email}
+          autoComplete="off"
           onChange={(e) => setEmail(e.target.value)} // 👈 state
         />
 
@@ -52,6 +54,7 @@ function Login() {
           placeholder="Password"
           className="w-full mb-4 p-3 border rounded-md"
           value={password}
+          autoComplete="current-password"
           onChange={(e) => setPassword(e.target.value)} // 👈 state
         />
 

@@ -73,7 +73,7 @@ public/screenshots/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/easymart.git
+git clone https://github.com/gauravkumar2005/EasyMart.git
 ```
 
 ### 2. Navigate to the project directory

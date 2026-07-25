@@ -9,7 +9,7 @@ A modern and responsive **full-stack e-commerce platform** built with **React** 
 
 ## 🌐 Live Demo
 
-🔗 **Demo:** https://your-demo-link.vercel.app
+🔗 **Demo:** https://easy-mart-mx5z.vercel.app/
 
 ## ✨ Features
 

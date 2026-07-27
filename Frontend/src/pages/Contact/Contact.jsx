@@ -8,6 +8,33 @@ function Contact() {
      const [email, setEmail] = useState("");
      const [message, setMessage] = useState("");
 
+     const handleSubmit = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .send(
+      "service_xlrvmzk",
+      "template_h2fikij",
+      {
+        name: name,
+        email: email,
+        message: message,
+      },
+      "_P1EVwUrRzqf5mOD0"
+    )
+    .then(() => {
+      alert("Message Sent Successfully!");
+
+      setName("");
+      setEmail("");
+      setMessage("");
+    })
+    .catch((error) => {
+      console.log(error);
+      alert("Failed to send message.");
+    });
+};
+
     return(
        <section className="bg-gray-100 py-12 px-6">
       <div className="max-w-6xl mx-auto">
@@ -54,7 +81,7 @@ function Contact() {
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-4">Message Us</h2>
 
-            <form className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
              <input
               type="text"
               placeholder="Your Name"

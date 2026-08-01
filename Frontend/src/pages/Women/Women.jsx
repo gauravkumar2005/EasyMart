@@ -87,11 +87,17 @@ function Women () {
             <h3 className="font-semibold text-lg">Girl Shoot</h3>
             <p className="text-gray-500 text-sm">Daily wear</p>
             <p className="text-pink-600 font-bold text-xl mt-2">₹699</p>
+            <div className="mt-4 flex gap-3">
             <button 
               onClick={() => addToCart({ id: 3, name: "Girl Shoot", price: 699, img: Shootgirl })}
               className="mt-3 w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
               Add to Cart
             </button>
+             <button
+              className="mt-2 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition">
+               Buy Now
+             </button>
+            </div>
           </div>
         </div>
 

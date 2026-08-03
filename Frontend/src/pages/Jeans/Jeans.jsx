@@ -28,11 +28,18 @@ function Jeans () {
             <h3 className="font-semibold text-lg">Stylish Jeans</h3>
             <p className="text-gray-500 text-sm">Modern slim style</p>
             <p className="text-indigo-600 font-bold text-xl mt-2">₹1299</p>
+
+          <div className="mt-4 flex gap-3">
             <button 
               onClick={() => addToCart({ id: 1, name: "Stylish Jeans", price: 1299, img: Jeansimg })}
               className="mt-3 w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition">
               Add to Cart
             </button>
+             <button
+              className="mt-2 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition">
+               Buy Now
+             </button>
+          </div>
           </div>
         </div>
 

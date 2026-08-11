@@ -127,11 +127,18 @@ function Kids () {
             <h3 className="font-semibold text-lg">Kids Shorts</h3>
             <p className="text-gray-500 text-sm">Summer wear</p>
             <p className="text-purple-600 font-bold text-xl mt-2">₹349</p>
+
+            <div className="mt-4 flex gap-3">
             <button 
               onClick={() => addToCart({ id: 5, name: "Kids Shorts", price: 349, img: "https://images.unsplash.com/photo-1593032465171-8e6b63d4c8e1" })}
               className="mt-3 w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition">
               Add to Cart
             </button>
+             <button
+              className="mt-2 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition">
+               Buy Now
+             </button>
+            </div>
           </div>
         </div>
 

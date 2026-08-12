@@ -29,11 +29,17 @@ function Men () {
             <p className="text-gray-500 text-sm">Comfortable cotton wear</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹499</p>
 
+         <div className="mt-4 flex gap-3">
             <button 
               onClick={() => addToCart({ id: 1, name: "Shirt", price: 499, img: Shirt })}
               className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
               Add to Cart
             </button>
+            <button
+              className="mt-2 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition">
+               Buy Now
+            </button>
+         </div>
           </div>
         </div>
 

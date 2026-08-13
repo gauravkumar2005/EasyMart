@@ -105,11 +105,17 @@ function Men () {
             <p className="text-gray-500 text-sm">Trendy design</p>
             <p className="text-green-600 font-bold text-xl mt-2">₹699</p>
 
-            <button 
+        <div className="mt-4 flex gap-3">
+           <button 
               onClick={() => addToCart({ id: 4, name: "Stylish Jeans", price: 699, img: Jeansimg })}
               className="mt-3 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition">
               Add to Cart
             </button>
+            <button
+              className="mt-2 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition">
+               Buy Now
+            </button>
+        </div>
           </div>
         </div>
 

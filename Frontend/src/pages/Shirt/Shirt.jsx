@@ -103,11 +103,18 @@ function Shirt () {
             <h3 className="font-semibold text-lg">Formal Shirt</h3>
             <p className="text-gray-500 text-sm">Stylish denim look</p>
             <p className="text-blue-600 font-bold text-xl mt-2">₹1199</p>
+
+            <div className="mt-4 flex gap-3">
             <button 
               onClick={() => addToCart({ id: 4, name: "Formal Shirt", price: 1199, img: Formalshirtgirl })}
               className="mt-3 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
               Add to Cart
             </button>
+             <button
+              className="mt-2 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition">
+               Buy Now
+             </button>
+            </div>
           </div>
         </div>
 

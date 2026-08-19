@@ -41,6 +41,7 @@ function Shirt () {
                Buy Now
             </button>
           </div>
+          </div>
         </div>
 
         <div className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden">

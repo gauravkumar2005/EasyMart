@@ -81,7 +81,7 @@ function Kids () {
             <div className="mt-4 flex gap-3">
             <button 
               onClick={() => addToCart({ id: 3, name: "Kids Jeans", price: 799, img: "https://images.unsplash.com/photo-1522771930-78848d9293e8" })}
-              className="mt-3 w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition">
+              className="mt-3 w-full bg-purple-500 text-white py-2 rounded-lg hover:bg-purple-600 transition">
               Add to Cart
             </button>
              <button
